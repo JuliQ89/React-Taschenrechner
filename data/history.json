@@ -14,6 +14,16 @@
       "id": "aef2cafb-d6a8-415c-8574-b0a0218a5813",
       "calculation": "3.14159265359",
       "result": 3.14159265359
+    },
+    {
+      "id": "e3ff4e7e-83a2-48c4-b30d-64ead58a4229",
+      "calculation": "9/6",
+      "result": 1.5
+    },
+    {
+      "id": "421e845d-31a3-4216-9ed2-ae3ecdf1a85e",
+      "calculation": "7+3",
+      "result": 10
     }
   ]
 }

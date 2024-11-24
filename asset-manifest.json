@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-Taschenrechner/static/css/main.7dea487b.css",
+    "main.js": "/React-Taschenrechner/static/js/main.f8fe3b5b.js",
+    "index.html": "/React-Taschenrechner/index.html",
+    "main.7dea487b.css.map": "/React-Taschenrechner/static/css/main.7dea487b.css.map",
+    "main.f8fe3b5b.js.map": "/React-Taschenrechner/static/js/main.f8fe3b5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dea487b.css",
+    "static/js/main.f8fe3b5b.js"
+  ]
+}

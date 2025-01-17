@@ -1,0 +1,9 @@
+FROM node:23-alpine
+
+WORKDIR /data
+
+COPY ./data/history.json .
+
+EXPOSE 3500
+
+CMD [ "npm", "run", "json-server" ]

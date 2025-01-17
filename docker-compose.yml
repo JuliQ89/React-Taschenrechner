@@ -1,0 +1,23 @@
+version: "3.5"
+
+services:
+  frontend:
+    container_name: taschenrechner-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+
+  server:
+    container_name: taschenrechner-server
+    build:
+      context: .
+      dockerfile: Dockerfile.jsonserver
+    ports:
+      - "3500:3500"
+    volumes:
+      - .:/data
